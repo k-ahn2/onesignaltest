@@ -10,10 +10,10 @@ function App() {
     let ONESIGNAL_ID
     if (window.location.hostname == 'localhost') {
       console.log('OneSignal Localhost')
-      ONESIGNAL_ID = '8e57fc47-487b-4671-8aff-510d255837c4'
+      ONESIGNAL_ID = ''
     } else {
       console.log('OneSignal Web')
-      ONESIGNAL_ID = 'fca2d04f-cb6b-4422-93ba-3f090f300e85'
+      ONESIGNAL_ID = ''
     }
 
     OneSignal.SERVICE_WORKER_PATH = '/onesignal/OneSignalSDKWorker.js';
