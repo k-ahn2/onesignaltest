@@ -1,8 +1,10 @@
-# React + Vite
+Setup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. npm create vite@latest onesignaltest -- --template react
+2. Eddit App.jsx, App.css and index.css to add this text and list events recieved
+3. npm install --save react-onesignal
+4. Removed React.StrictMode
+5. Deploy to public web server / domain with HTTPS
+6. Open in Safari on iOS
+7. Add to Home Screen
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

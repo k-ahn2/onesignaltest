@@ -58,13 +58,6 @@ function App() {
     <>
       <h2 className="header">OneSignal Test PWA</h2>
       { !OneSignal.Notifications.permission && <button onClick={enablePush}>Enable Push</button> }
-      <h3>Setup</h3>
-      <ol>
-        <li><b>npm create vite@latest onesignaltest -- --template react</b></li>
-        <li>Eddit App.jsx, App.css and index.css to add this text and list events recieved</li>
-        <li><b>npm install --save react-onesignal</b></li>
-        <li>Removed React.StrictMode</li>
-      </ol>
       <h3>OneSignal Events Received</h3>
       <div>
         <p>
